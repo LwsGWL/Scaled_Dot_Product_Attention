@@ -1,3 +1,9 @@
+# Precautions before starting
+  I'm a first-year high school student (at the time of writing this project) who dreams of becoming an AI developer. 
+  This project was created for my personal study purposes, and this is my first time uploading it to GitHub. 
+  Therefore, there may be errors, typos, or inaccuracies in various parts of the project, including references and code. 
+  I appreciate your understanding. (Feedback is always appreciated.)
+  
 # Scaled_Dot_Product_Attention
 This is the Scaled_Dot_Product_Attetion layer, implemented based on research from the "Attention is All You Need" paper and several open-source converters on GitHub. For detailed sources, please refer to the READM.md file.
 
