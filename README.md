@@ -11,4 +11,9 @@ This is the Scaled_Dot_Product_Attetion layer, implemented based on research fro
 ## Reference
   - "Attention is All You Need" (2017)  
   [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
+  - Portions of this implementation reference code from:  
+  [Hyunwoong Ko’s GitHub Repository](https://github.com/hyunwoongko/transformer#)  
+  Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).  
+  Copyright (c) 2019 Hyunwoong Ko
+
 
