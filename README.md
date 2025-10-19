@@ -2,7 +2,7 @@
   I'm a first-year high school student (at the time of writing this project) who dreams of becoming an AI developer. 
   This project was created for personal learning purposes and other purposes, and this is my first time uploading it to GitHub. 
   Therefore, there may be errors, typos, or inaccuracies in various parts of the project, including references and code. 
-  Thank you for your understanding. 
+  Thank you for your understanding!
   (Feedback is always welcome!)
   
 # Scaled_Dot_Product_Attention
