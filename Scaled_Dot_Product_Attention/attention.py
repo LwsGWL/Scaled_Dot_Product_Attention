@@ -20,12 +20,11 @@ class ScaledDotProductAttention(nn.Module):
         # <pad> tokens are not to be counted
         if mask is not None:
             score = score.masked_fill(mask == 0, -10000)
-
+            
         score = self.softmax(score)
         
         # Get Attention (Q, K, V)
         v = v @ score
-
         
         # The reason there are two return values ​​is because 
         # v is used for the actual calculation in Multi-Head Attention, 
