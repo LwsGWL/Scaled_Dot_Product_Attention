@@ -13,7 +13,7 @@ class ScaledDotProductAttention(nn.Module):
 
         # k.transpose(2, 3) format is [batch_size, head, d_t(dim_tensor), length]
         # k.transpose(2, 3) means the transpose of k, and the reason for transposing is that 
-        # the inner product of Q and K_t must be in the format [batch_size, head, lenght, lenght].
+        # the inner product of Q and k.transpose(2, 3) must be in the format [batch_size, head, lenght, lenght].
         # Formulas in the "Attention is All you Need" paper
         score = torch.matmul(q, k.transpose(2, 3)) / math.sqrt(d_t)
 
@@ -30,3 +30,4 @@ class ScaledDotProductAttention(nn.Module):
         # v is used for the actual calculation in Multi-Head Attention, 
         # and score is a value that can indicate which part was focused on (debugging).
         return context_vector, score
+
